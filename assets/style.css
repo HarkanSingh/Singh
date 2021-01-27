@@ -4,6 +4,10 @@ html, body {
 body{
     padding-bottom: 200px;
 }
+.counter{
+    margin-top: 2px;
+}
+
 
 .logo {
     background-position: center;
