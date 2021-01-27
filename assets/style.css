@@ -1,0 +1,138 @@
+html, body {
+    min-height: 100%;
+}
+body{
+    padding-bottom: 200px;
+}
+
+.logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:auto;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.navbar-brand :hover{
+background-color: #555;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+.navbar-nav :hover{
+    background-color: #555;
+}
+
+
+.name{
+  min-width: 100px;
+  overflow:hidden;
+  color: black;
+  text-decoration: none;
+  font-size: 90px;
+  line-height: 80px;
+  border-radius: 4px;
+}
+
+.pro{
+    font-size: 45px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.img-responsive{
+    margin-bottom: 60px;
+    align-content: center;
+    display: block;
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: black;
+      color: white;
+      margin-top: -50;
+      padding:5px;
+        text-align: center;
+        position: relative;
+        height: 160px;
+        width: 100%;
+        bottom:0;
+        z-index: 50;
+        position: fixed; 
+        left: 0 ; right: 0; bottom: 0; 
+    }
+
+    #footer-details {
+    padding: 20px;
+}
+    .cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+    .social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #0a0a0a;
+    background: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: none;
+      }
+      .row.content {height:auto;} 
+    }
+
