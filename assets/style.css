@@ -8,6 +8,7 @@ html, body {
 body{
     padding-bottom: 200px;
     margin-top: -20px ;
+    overflow: visible;
 }
 .counter{
     margin-top: 2px;
