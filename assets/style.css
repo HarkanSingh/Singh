@@ -19,6 +19,10 @@ body{
 .text-center{
     margin-top: -20px;
 }
+
+.no-gutter{
+    margin-bottom: 50px;
+}
 .logo {
     background-position: center;
     background-repeat: no-repeat;
