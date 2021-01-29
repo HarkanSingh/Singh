@@ -75,6 +75,8 @@
     $('.contact100-btn-show').on('click', function(){
         $('.wrap-contact100').fadeIn(400);
     })
-
+    
 })(jQuery);
+
+
 
