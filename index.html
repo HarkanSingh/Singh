@@ -215,6 +215,13 @@
 
     $('[href]').css('color','white');
 
+    function resize() {
+    var n = $("body").width() / 30 + "pt";
+    $("h1, h3").css('fontSize', n);
+}
+$(window).on("resize", resize);
+$(document).ready(resize);
+
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon 
 function myFunction() {
   var x = document.getElementById("myTopnav");
